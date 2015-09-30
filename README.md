@@ -1,22 +1,12 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
+This project is an academic project developed for a class of cloud technologies
 
-Welcome to your Node.js project on Cloud9 IDE!
+key technologies : Node.js , express, Angular JS, HTML 5, Mongodb over Mongo Labs
 
-This chat example showcases how to use `socket.io` with a static `express` server.
-
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+Key features of this project were :
+ 
+ 1) To develop an multiTenant application where UI workflows are independent of number of tenants and fields.
+ 2) Model in the client side is directly populated by model on server side. 
+ 3) Configuration of Model is independent of model instanciation thus making it scalable at tenant level and application level.
+ 4) The application uses Mean stack extensively over Cloud thus making it performance wise scalable as well.
